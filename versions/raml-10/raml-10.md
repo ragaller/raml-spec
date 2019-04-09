@@ -707,7 +707,7 @@ Person:
   name: "John"
   age: 35
   note2: 123 # not valid as it is not a string
-  note1: "US" # valid as it does not match the pattern
+  note1: "US" # valid as it does match the pattern
 ```
 
 To force all additional properties to be strings, regardless of their keys, use:
